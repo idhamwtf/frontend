@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --ukuran-font:16px;
+    --latar-color:#0f1c3b;
+    --tombol-color:#eb0f5d;
+    --text-color:white;
+}
+
+body{
+    font-family: 'Lato' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-container{
+    font-size: var(--ukuran-font);
+    color: var(--text-color);
+    background-color: var(--latar-color);
+    padding: 20px 50px;
+    display: flex;
+    
+}
+
+.brand-container{
+    margin-right: 30px;
+}
+
+.menu-container{
+    padding-top: 12px;
+    display: flex;
+}
+
+.menu{
+    font-weight: 50;
+    margin-right: 20px;
+}
+
+.menu span{
+    font-size: 12px;
+}
+
+
+.menukanan-container{
+    margin-left: auto;
+    padding-top: 12px;
+    display: flex;
+}
