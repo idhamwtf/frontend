@@ -10,6 +10,12 @@
     --text-color:white;
 }
 
+/* div{
+    border: 1px solid yellow;
+} */
+
+
+/* header start */
 body{
     font-family: 'Lato' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -17,9 +23,13 @@ body{
 .header-container{
     font-size: var(--ukuran-font);
     color: var(--text-color);
-    background-color: var(--latar-color);
+    background-color:var(--latar-color);
     padding: 20px 50px;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     
 }
 
@@ -35,15 +45,175 @@ body{
 .menu{
     font-weight: 50;
     margin-right: 20px;
+    transition: 1s;
 }
 
 .menu span{
     font-size: 12px;
 }
 
+.menu:hover{
+    color: var(--tombol-color);
+    cursor: pointer;
+}
+
 
 .menukanan-container{
     margin-left: auto;
-    padding-top: 12px;
+    /* padding-top: 12px; */
     display: flex;
 }
+
+.menukanan-container .signin{
+    margin-right: 20px;
+    padding-top: 12px;
+}
+
+.menukanan-container .get-played{
+    border: 2px solid var(--tombol-color);
+    width: 130px;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 10px 0 0 23px;
+}
+
+.menukanan-container .get-played span{
+    font-size: 12px;
+}
+
+.bars-container{
+    display: none;
+    padding-top: 12px;
+}
+
+
+.brand{
+    height: 43px;
+    width: 115px;
+}
+/* header ends */
+
+/* jumbotron1 starts */
+
+.jumbotron1-container{
+    height: 100vh;
+    background-color: var(--latar-color);
+    margin-top: 85px;
+    color: white;
+}
+
+.jumbotron1-component{
+    padding-top: 150px;
+}
+
+
+.jumbotron1-textbig{
+    text-align: center;
+    font-family: 'Overpass', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size : 50px;
+    /* color: var(--text-color); */
+    font-weight: 900;
+}
+
+
+.jumbotron1-textsecond{
+    text-align: center;
+    font-size: 24px;
+    line-height: 38.4px;
+    font-weight: 300;
+}
+
+
+.jumbotron1-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    border: 2.5px solid var(--tombol-color);
+    width: 130px;
+    font-size: 18px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 25px 10px 20px;
+    margin-top: 20px;
+    background-color: var(--tombol-color);
+}
+
+.btn-container:hover{
+    background-color: white;
+    color: var(--tombol-color);
+    border: 2.5px white;
+    transition: 1s;
+}
+
+
+.imgindex1{
+    margin: 100px 0 0 350px;
+    border-radius: 3%;
+}
+
+
+/* jumbotron1 endss */
+
+
+
+
+
+
+/* jumbotron2 starts */
+
+.jumbotron2-container{
+    height: 100vh;
+    background-color: white;
+    margin-top: 85px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* jumbotron2 ends */
+
+
+
+
+
+
+
+
+
+/* for tablet starts */
+
+@media only screen and (max-width: 1200px){
+    .menu-container{
+        display: none;
+    }
+
+    .header-container{
+        padding: 25px 0 10px 25px ;
+    }
+
+    .brand{
+        height: 31px;
+        width: 105px;
+    }
+    
+    .menukanan-container{
+        display: none;
+    }
+    .bars-container{
+        display: block;
+        margin-left: auto;
+        font-size: 25px;
+        padding-top: 1px;
+        padding-bottom: 7px;
+        margin-right: 15px;
+    }
+}
+
+/* for table ends */

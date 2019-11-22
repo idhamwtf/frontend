@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+div{
+    border: yellow 1px solid;
+} */
+
+.kartu{
+    border-radius: 5%;
+}
+
+.card{
+    border: transparent;
+}
