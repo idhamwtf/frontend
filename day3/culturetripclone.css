@@ -9,9 +9,14 @@ div{
 } */
 
 .kartu{
-    border-radius: 5%;
+    border-radius: 4%;
 }
 
 .card{
     border: transparent;
+}
+
+.woi{
+    color: red; 
+    font-size: 16px;
 }
