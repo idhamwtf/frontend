@@ -10,9 +10,9 @@
     --text-color:white;
 }
 
-/* div{
-    border: 1px solid yellow;
-} */
+div{
+    /* border: 1px solid yellow; */
+}
 
 
 /* header start */
@@ -96,10 +96,11 @@ body{
 /* jumbotron1 starts */
 
 .jumbotron1-container{
-    height: 100vh;
-    background-color: var(--latar-color);
+    height: 87vh;
+    background-image: linear-gradient( 179.7deg,  rgba(15,28,59,1) 45.3%, rgba(32,53,105,1) 157.5% );
     margin-top: 85px;
     color: white;
+    /* position: absolute; */
 }
 
 .jumbotron1-component{
@@ -148,10 +149,46 @@ body{
 }
 
 
-.imgindex1{
-    margin: 100px 0 0 350px;
-    border-radius: 3%;
+.img-container{
+    margin: 80px 17% 0 26%;
+    height: 687px;
+    width: 950px; 
+    position: absolute;
 }
+
+.imgindex1{
+    /* margin: 80px 17% 0 27%;  */
+    margin-left: 5px;
+    border-radius: 2%;
+    position: absolute;
+    z-index: 0;
+}
+
+.imgindex2{
+    /* margin-bottom: 100%; */
+    position: absolute;
+    z-index: 1;
+    right: 80%;
+    top: 20%;
+
+}
+.imgindex3{
+    /* margin-bottom: 100%; */
+    position: absolute;
+    z-index: 1;
+    left: 75%;
+    bottom: 87%;
+}
+.imgindex4{
+    /* margin-bottom: 100%; */
+    position: absolute;
+    z-index: 2;
+    left: 80%;
+    bottom: 48%;
+
+}
+
+
 
 
 /* jumbotron1 endss */
@@ -164,10 +201,73 @@ body{
 /* jumbotron2 starts */
 
 .jumbotron2-container{
-    height: 100vh;
+    height: 38vh;
     background-color: white;
-    margin-top: 85px;
+    /* margin-top: 85px; */
     color: white;
+    margin: 1px;
+    /* border: green 1px solid; */
+}
+
+.userlogo-container{
+    height: 385px;
+    margin-top: 450px;
+    /* display: flex; */
+}
+
+.userlogo-component{
+    /* border: blue 1px solid!important; */
+    margin: 0 400px;
+}
+
+.logo-container1{
+    display: flex;
+    padding-left: 200x;
+    padding-right: 100px;
+}
+.logo-container2{
+    display: flex;
+}
+   
+
+.logo{
+    justify-content: center;
+    text-align: center;
+    height: 48px;
+    width: 160px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-left: 45px;
+    margin-bottom: 75px;
+}
+/* jumbotron2 ends */
+
+
+
+
+
+
+
+/* jumbotron3 starts */
+
+.jumbotron3-container{
+    height: 60vh;
+    width: 107vh;
+    display: flex;
+    /* border: red 2px solid; */
+    /* position: absolute; */
+    padding-left: 24%;
+}
+
+.jumbotron3-component{
+    height: 485px;
+    width: 560px;
+    
+}
+.jumbotron3-component2{
+    height: 485px;
+    width: 560px;
+    
 }
 
 
@@ -177,7 +277,22 @@ body{
 
 
 
-/* jumbotron2 ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* jumbotron3 ends */
 
 
 
